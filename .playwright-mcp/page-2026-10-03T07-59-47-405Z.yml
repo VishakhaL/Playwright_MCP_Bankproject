@@ -1,0 +1,164 @@
+- generic [ref=f43e1]:
+  - generic: 03/10/2026 13:29:44
+  - generic [ref=f43e3]:
+    - generic [ref=f43e4]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=f43e5]
+      - paragraph [ref=f43e6]: Welcome to the Testers Talk Banking Application
+    - generic [ref=f43e7]:
+      - generic [ref=f43e8]:
+        - generic [ref=f43e9]:
+          - button "Transfers" [ref=f43e10] [cursor=pointer]
+          - button "Bill Payments" [ref=f43e11] [cursor=pointer]
+        - link "Logout" [ref=f43e12] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f43e15]:
+        - navigation [ref=f43e17]:
+          - link "💰 Account Management" [ref=f43e18] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [active] [ref=f43e19] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=f43e20] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f43e69]:
+          - heading "💳 Quick Transactions" [level=2] [ref=f43e70]
+          - generic [ref=f43e71]:
+            - generic [ref=f43e72]: "Transaction Type: *"
+            - 'combobox "Transaction Type: *" [ref=f43e73] [cursor=pointer]':
+              - option "Select transaction type"
+              - option "Deposit" [selected]
+              - option "Withdrawal"
+              - option "Transfer"
+            - generic [ref=f43e74]: "Amount ($): *"
+            - 'spinbutton "Amount ($): *" [ref=f43e75]'
+            - text: "*"
+            - generic [ref=f43e76]: "Description: *"
+            - 'textbox "Description: *" [ref=f43e77]':
+              - /placeholder: Transaction description
+            - button "Submit" [ref=f43e78] [cursor=pointer]
+      - text: "* * * * *"
+  - generic [ref=f43e33]:
+    - generic [ref=f43e34]: "Latest from Testers Talk :"
+    - generic [ref=f43e36]:
+      - generic [ref=f43e37]:
+        - button "Previous Video" [disabled] [ref=f43e38]: ▲
+        - button "Next Video" [ref=f43e39] [cursor=pointer]: ▼
+      - generic [ref=f43e40]:
+        - generic [ref=f43e41]:
+          - generic [ref=f43e42]: "Playwright TypeScript Course PART-01:"
+          - link "Watch on YouTube" [ref=f43e43] [cursor=pointer]:
+            - /url: https://youtu.be/788GvvcfwTY?feature=shared
+          - iframe [ref=f43e44]:
+            - generic "YouTube Video Player" [ref=f44e3]:
+              - generic [ref=f44e6]:
+                - generic:
+                  - generic:
+                    - generic [ref=f44e7] [cursor=pointer]: "AI Sales Assistant Demo: How Koenig's BEAST AI Prepares Sales Reps for Every Meeting"
+                    - link "youtube.com This link opens in new tab" [ref=f44e8] [cursor=pointer]:
+                      - generic [ref=f44e9]: youtube.com
+                  - generic [ref=f44e10]:
+                    - generic [ref=f44e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f44e13]: 2:00
+                    - button "My Ad Center" [ref=f44e16] [cursor=pointer]
+                  - generic: You can skip to video in 5
+        - generic [ref=f43e45]:
+          - generic [ref=f43e46]: "Playwright TypeScript Course PART-02:"
+          - link "Watch on YouTube" [ref=f43e47] [cursor=pointer]:
+            - /url: https://youtu.be/YfRazDhi9Fw?feature=shared
+          - iframe [ref=f43e48]:
+            - generic "YouTube Video Player" [ref=f45e3]:
+              - generic [ref=f45e6]:
+                - generic:
+                  - generic:
+                    - generic [ref=f45e7] [cursor=pointer]: "No More Rebuilding Proposals from Scratch: Meet Koenig's BEAST AI"
+                    - link "youtube.com This link opens in new tab" [ref=f45e8] [cursor=pointer]:
+                      - generic [ref=f45e9]: youtube.com
+                  - generic [ref=f45e10]:
+                    - generic [ref=f45e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f45e13]: 1:40
+                    - button "My Ad Center" [ref=f45e16] [cursor=pointer]
+                  - generic: You can skip to video in 5
+        - generic [ref=f43e49]:
+          - generic [ref=f43e50]: "Playwright TypeScript Course PART-03:"
+          - link "Watch on YouTube" [ref=f43e51] [cursor=pointer]:
+            - /url: https://youtu.be/iGQ-qTLEPLw?feature=shared
+          - iframe [ref=f43e52]:
+            - generic "YouTube Video Player" [ref=f46e3]:
+              - generic [ref=f46e6]:
+                - generic:
+                  - generic:
+                    - generic [ref=f46e7] [cursor=pointer]: Can You Make a SILLY FACE ? 😜 | Feelings Song for Kids | Lara & Teddy
+                    - link "youtube.com This link opens in new tab" [ref=f46e8] [cursor=pointer]:
+                      - generic [ref=f46e9]: youtube.com
+                  - generic [ref=f46e10]:
+                    - generic [ref=f46e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f46e13]: 2:36
+                    - button "My Ad Center" [ref=f46e16] [cursor=pointer]
+                  - generic: You can skip to video in 5
+        - generic [ref=f43e53]:
+          - generic [ref=f43e54]: "Playwright TypeScript Course PART-04:"
+          - link "Watch on YouTube" [ref=f43e55] [cursor=pointer]:
+            - /url: https://youtu.be/D44k45N6S58?feature=shared
+          - iframe [ref=f43e56]:
+            - generic "YouTube Video Player" [ref=f47e3]:
+              - generic [ref=f47e6]:
+                - generic:
+                  - generic:
+                    - generic [ref=f47e7] [cursor=pointer]: "AI Sales Assistant Demo: How Koenig's BEAST AI Prepares Sales Reps for Every Meeting"
+                    - link "youtube.com This link opens in new tab" [ref=f47e8] [cursor=pointer]:
+                      - generic [ref=f47e9]: youtube.com
+                  - generic [ref=f47e10]:
+                    - generic [ref=f47e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f47e13]: 2:00
+                    - button "My Ad Center" [ref=f47e16] [cursor=pointer]
+                  - generic: You can skip to video in 5
+        - generic [ref=f43e57]:
+          - generic [ref=f43e58]: "Playwright JavaScript Course PART-01:"
+          - link "Watch on YouTube" [ref=f43e59] [cursor=pointer]:
+            - /url: https://youtu.be/2poXBtifpzA?feature=shared
+          - iframe [ref=f43e60]:
+            - generic "YouTube Video Player" [ref=f48e3]:
+              - generic [ref=f48e6]:
+                - generic:
+                  - generic:
+                    - generic [ref=f48e7] [cursor=pointer]: "No More Rebuilding Proposals from Scratch: Meet Koenig's BEAST AI"
+                    - link "youtube.com This link opens in new tab" [ref=f48e8] [cursor=pointer]:
+                      - generic [ref=f48e9]: youtube.com
+                  - generic [ref=f48e10]:
+                    - generic [ref=f48e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f48e13]: 1:40
+                    - button "My Ad Center" [ref=f48e16] [cursor=pointer]
+                  - generic: You can skip to video in 5
+        - generic [ref=f43e61]:
+          - generic [ref=f43e62]: "Playwright JavaScript Course PART-02:"
+          - link "Watch on YouTube" [ref=f43e63] [cursor=pointer]:
+            - /url: https://youtu.be/lM-lqPun9P8?feature=shared
+          - iframe [ref=f43e64]:
+            - generic "YouTube Video Player" [ref=f49e3]:
+              - generic [ref=f49e6]:
+                - generic:
+                  - generic:
+                    - generic [ref=f49e7] [cursor=pointer]: Where Every Hour Feels Well Spent | Clubhouse at The Florett Enqlave
+                    - link "youtu.be This link opens in new tab" [ref=f49e8] [cursor=pointer]:
+                      - generic [ref=f49e9]: youtu.be
+                  - generic [ref=f49e10]:
+                    - generic [ref=f49e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f49e13]: 1:15
+                    - button "My Ad Center" [ref=f49e16] [cursor=pointer]
+                  - generic: You can skip to video in 5
+        - generic [ref=f43e65]:
+          - generic [ref=f43e66]: "Playwright JavaScript Course PART-03:"
+          - link "Watch on YouTube" [ref=f43e67] [cursor=pointer]:
+            - /url: https://youtu.be/Exx2M5Pz06g?feature=shared
+          - iframe [ref=f43e68]:
+            - generic "YouTube Video Player" [ref=f50e3]:
+              - generic [ref=f50e6]:
+                - generic:
+                  - generic:
+                    - generic [ref=f50e7] [cursor=pointer]: Australian Immigration - Debika Migration Services - Immigration Consultant in Sydney, Australia
+                    - link "dmsmigration.com This link opens in new tab" [ref=f50e8] [cursor=pointer]:
+                      - generic [ref=f50e9]: dmsmigration.com
+                  - generic [ref=f50e10]:
+                    - generic [ref=f50e11]: Sponsored 1 of 2 ·
+                    - generic [ref=f50e13]: 1:53
+                    - button "My Ad Center" [ref=f50e16] [cursor=pointer]
+                  - generic: You can skip to video in 5

@@ -1,0 +1,1088 @@
+- generic [ref=f43e1]:
+  - generic: 03/10/2026 13:30:12
+  - generic [ref=f43e3]:
+    - generic [ref=f43e4]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=f43e5]
+      - paragraph [ref=f43e6]: Welcome to the Testers Talk Banking Application
+    - generic [ref=f43e7]:
+      - generic [ref=f43e8]:
+        - generic [ref=f43e9]:
+          - button "Transfers" [ref=f43e10] [cursor=pointer]
+          - button "Bill Payments" [ref=f43e11] [cursor=pointer]
+        - link "Logout" [ref=f43e12] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f43e15]:
+        - navigation [ref=f43e17]:
+          - link "💰 Account Management" [ref=f43e18] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [active] [ref=f43e19] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=f43e20] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f43e69]:
+          - heading "💳 Quick Transactions" [level=2] [ref=f43e70]
+          - generic [ref=f43e71]:
+            - generic [ref=f43e72]: "Transaction Type: *"
+            - 'combobox "Transaction Type: *" [ref=f43e73] [cursor=pointer]':
+              - option "Select transaction type"
+              - option "Deposit"
+              - option "Withdrawal"
+              - option "Transfer" [selected]
+            - generic [ref=f43e74]: "Amount ($): *"
+            - 'spinbutton "Amount ($): *" [ref=f43e75]'
+            - generic [ref=f43e79]:
+              - text: "Transfer to Account: *"
+              - 'textbox "Transfer to Account: *" [ref=f43e80]':
+                - /placeholder: Enter account number
+            - generic [ref=f43e76]: "Description: *"
+            - 'textbox "Description: *" [ref=f43e77]':
+              - /placeholder: Transaction description
+            - button "Submit" [ref=f43e78] [cursor=pointer]
+      - text: "* * * * *"
+  - generic [ref=f43e33]:
+    - generic [ref=f43e34]: "Latest from Testers Talk :"
+    - generic [ref=f43e36]:
+      - generic [ref=f43e37]:
+        - button "Previous Video" [ref=f43e38] [cursor=pointer]: ▲
+        - button "Next Video" [disabled] [ref=f43e39]: ▼
+      - generic [ref=f43e40]:
+        - generic [ref=f43e81]:
+          - generic [ref=f43e82]: "Cypress Tutorial Full Course:"
+          - link "Watch on YouTube" [ref=f43e83] [cursor=pointer]:
+            - /url: https://youtu.be/oJV5whmzfZI?feature=shared
+          - iframe [ref=f43e84]:
+            - generic [ref=f72e1]:
+              - generic "YouTube Video Player" [ref=f72e3]
+              - generic [ref=f72e6]:
+                - generic:
+                  - generic:
+                    - button "Hide player controls" [ref=f72e7] [cursor=pointer]
+                    - generic [ref=f72e9]:
+                      - generic:
+                        - generic [ref=f72e12]:
+                          - generic [ref=f72e14]:
+                            - generic [ref=f72e15]:
+                              - link "Cypress Tutorial Full Course | Cypress Automation | Learn Cypress in 5 Hrs" [ref=f72e16] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=oJV5whmzfZI
+                              - link "Testers Talk" [ref=f72e17] [cursor=pointer]:
+                                - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                            - generic [ref=f72e19]:
+                              - button [ref=f72e20] [cursor=pointer]
+                              - generic [ref=f72e22]:
+                                - generic: Testers Talk
+                                - generic: 31.4K subscribers
+                          - generic [ref=f72e23]:
+                            - button "Mute" [ref=f72e25] [cursor=pointer]:
+                              - img "Mute" [ref=f72e26]
+                            - button "Subtitles/CC turned on" [pressed] [ref=f72e29] [cursor=pointer]
+                        - generic [ref=f72e34]:
+                          - button "Rewind 10 seconds" [ref=f72e35] [cursor=pointer]
+                          - button "Pause video" [ref=f72e37] [cursor=pointer]
+                          - button "Fast forward 10 seconds" [ref=f72e41] [cursor=pointer]
+                      - button "Enter full screen" [ref=f72e46] [cursor=pointer]
+                      - slider "Seek slider" [ref=f72e50] [cursor=pointer]
+                      - generic:
+                        - link "Watch on YouTube" [ref=f72e99] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=oJV5whmzfZI
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=ACUMZ3OkExQ&feature=endscreen
+                                      - generic: 4:30:59
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=ACUMZ3OkExQ&feature=endscreen
+                                            - heading "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=tRI5ruE7yCA&feature=endscreen
+                                      - generic: 1:20:54
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Cypress Complete Beginners Masterclass 1 | Step by Step | Raghav Pal | 4 years ago":
+                                            - /url: https://www.youtube.com/watch?v=tRI5ruE7yCA&feature=endscreen
+                                            - heading "Cypress Complete Beginners Masterclass 1 | Step by Step | Raghav Pal |" [level=3]
+                                            - generic: 4 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=AnyKTiC3P1M&feature=endscreen
+                                      - generic: 2:42:18
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Learn Cypress End-to-End Testing From Scratch (Full 2.5-Hour Course) 1 year ago":
+                                            - /url: https://www.youtube.com/watch?v=AnyKTiC3P1M&feature=endscreen
+                                            - heading "Learn Cypress End-to-End Testing From Scratch (Full 2.5-Hour Course)" [level=3]
+                                            - generic: 1 year ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=2poXBtifpzA&feature=endscreen
+                                      - generic: 6:55:08
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=2poXBtifpzA&feature=endscreen
+                                            - heading "#1 Playwright Tutorial Full Course 2026 | Playwright Testing Tutorial" [level=3]
+                                            - generic: 2 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=1cRI8-JWQho&feature=endscreen
+                                      - generic: 50:52
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "JMeter tutorial 27 - JMeter Real Time Project | Learn JMeter in 50 Minutes! 6 years ago":
+                                            - /url: https://www.youtube.com/watch?v=1cRI8-JWQho&feature=endscreen
+                                            - heading "JMeter tutorial 27 - JMeter Real Time Project | Learn JMeter in 50 Minutes!" [level=3]
+                                            - generic: 6 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=DWAKxFGUjsI&feature=endscreen
+                                      - generic: 20:16
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Build an AI Data Analyst with LangGraph & Gemini | Natural Language SQL + ETL | Agentic AI & DATA 12 days ago":
+                                            - /url: https://www.youtube.com/watch?v=DWAKxFGUjsI&feature=endscreen
+                                            - heading "Build an AI Data Analyst with LangGraph & Gemini | Natural Language SQL + ETL | Agentic AI & DATA" [level=3]
+                                            - generic: 12 days ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=CoREdbvtGkU&feature=endscreen
+                                      - generic: 1:46:08
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "JavaScript for Automation Testers 🚀 Complete Crash Course for Playwright & Cypress 6 months ago":
+                                            - /url: https://www.youtube.com/watch?v=CoREdbvtGkU&feature=endscreen
+                                            - heading "JavaScript for Automation Testers 🚀 Complete Crash Course for Playwright & Cypress" [level=3]
+                                            - generic: 6 months ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=oQWkuJhSMCQ&feature=endscreen
+                                      - generic: 1:26:32
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Flask Full Course in 1Hour in Telugu 5 years ago":
+                                            - /url: https://www.youtube.com/watch?v=oQWkuJhSMCQ&feature=endscreen
+                                            - heading "Flask Full Course in 1Hour in Telugu" [level=3]
+                                            - generic: 5 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                      - generic: 3:27:51
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - 'link "API Testing Using Postman: Complete Crash Course for Beginners 3 years ago"':
+                                            - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                            - 'heading "API Testing Using Postman: Complete Crash Course for Beginners" [level=3]'
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=SoW2pBak1_Q&feature=endscreen
+                                      - generic: 3:31:26
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "JMeter Full Course Masterclass | Step by Step for Beginners | Raghav Pal | 5 years ago":
+                                            - /url: https://www.youtube.com/watch?v=SoW2pBak1_Q&feature=endscreen
+                                            - heading "JMeter Full Course Masterclass | Step by Step for Beginners | Raghav Pal |" [level=3]
+                                            - generic: 5 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=pq20Gd4LXeI&feature=endscreen
+                                      - generic: 8:17:31
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Playwright Automation Tutorial for Beginners from Scratch 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=pq20Gd4LXeI&feature=endscreen
+                                            - heading "Playwright Automation Tutorial for Beginners from Scratch" [level=3]
+                                            - generic: 2 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=wEOLZq-7DYs&feature=endscreen
+                                      - generic: 1:35:56
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Learn Postman for API Testing (Step-by-Step Tutorial) 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=wEOLZq-7DYs&feature=endscreen
+                                            - heading "Learn Postman for API Testing (Step-by-Step Tutorial)" [level=3]
+                                            - generic: 2 years ago
+        - generic [ref=f43e85]:
+          - generic [ref=f43e86]: "JavaScript For Beginners:"
+          - link "Watch on YouTube" [ref=f43e87] [cursor=pointer]:
+            - /url: https://youtu.be/ACUMZ3OkExQ?feature=shared
+          - iframe [ref=f43e88]:
+            - generic [ref=f73e1]:
+              - generic "YouTube Video Player" [ref=f73e3]
+              - generic [ref=f73e6]:
+                - generic:
+                  - generic:
+                    - button "Hide player controls" [ref=f73e7] [cursor=pointer]
+                    - generic [ref=f73e9]:
+                      - generic:
+                        - generic [ref=f73e12]:
+                          - generic [ref=f73e14]:
+                            - generic [ref=f73e15]:
+                              - link "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners" [ref=f73e16] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=ACUMZ3OkExQ
+                              - link "Testers Talk" [ref=f73e17] [cursor=pointer]:
+                                - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                            - generic [ref=f73e19]:
+                              - button [ref=f73e20] [cursor=pointer]
+                              - generic [ref=f73e22]:
+                                - generic: Testers Talk
+                                - generic: 31.4K subscribers
+                          - generic [ref=f73e23]:
+                            - button "Mute" [ref=f73e25] [cursor=pointer]:
+                              - img "Mute" [ref=f73e26]
+                            - button "Subtitles/CC turned on" [pressed] [ref=f73e29] [cursor=pointer]
+                        - generic [ref=f73e34]:
+                          - button "Rewind 10 seconds" [ref=f73e35] [cursor=pointer]
+                          - button "Pause video" [ref=f73e37] [cursor=pointer]
+                          - button "Fast forward 10 seconds" [ref=f73e41] [cursor=pointer]
+                      - button "Enter full screen" [ref=f73e46] [cursor=pointer]
+                      - slider "Seek slider" [ref=f73e50] [cursor=pointer]
+                      - generic:
+                        - link "Watch on YouTube" [ref=f73e100] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=ACUMZ3OkExQ
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=X46I88W6uIE&feature=endscreen
+                                      - generic: 1:04:29
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "JavaScript Tutorial For Beginners Chapter01 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=X46I88W6uIE&feature=endscreen
+                                            - heading "JavaScript Tutorial For Beginners Chapter01" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=IQuG77FNMhw&feature=endscreen
+                                      - generic: 2:55:00
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Javascript Tutorial for Beginners - Test Automation 5 years ago":
+                                            - /url: https://www.youtube.com/watch?v=IQuG77FNMhw&feature=endscreen
+                                            - heading "Javascript Tutorial for Beginners - Test Automation" [level=3]
+                                            - generic: 5 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=JVTZb4YvKjM&feature=endscreen
+                                      - generic: 8:45:30
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Java Script Full Course in Telugu | Java Script in Telugu | Java Script Tutorials in Telugu 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=JVTZb4YvKjM&feature=endscreen
+                                            - heading "Java Script Full Course in Telugu | Java Script in Telugu | Java Script Tutorials in Telugu" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=sscX432bMZo&feature=endscreen
+                                      - generic: 9:02:21
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Javascript in 1 shot in Hindi | part 1 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=sscX432bMZo&feature=endscreen
+                                            - heading "Javascript in 1 shot in Hindi | part 1" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=UfIvLowVqBk&feature=endscreen
+                                      - generic: 5:10:18
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Ultimate Docker Bootcamp for ML, GenAI & Agentic AI 2026 | Beginner to Advanced | Hands-on Projects 11 days ago":
+                                            - /url: https://www.youtube.com/watch?v=UfIvLowVqBk&feature=endscreen
+                                            - heading "Ultimate Docker Bootcamp for ML, GenAI & Agentic AI 2026 | Beginner to Advanced | Hands-on Projects" [level=3]
+                                            - generic: 11 days ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=W6NZfCO5SIk&feature=endscreen
+                                      - generic: 48:17
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "JavaScript Course for Beginners – Your First Step to Web Development 8 years ago":
+                                            - /url: https://www.youtube.com/watch?v=W6NZfCO5SIk&feature=endscreen
+                                            - heading "JavaScript Course for Beginners – Your First Step to Web Development" [level=3]
+                                            - generic: 8 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=ajdRvxDWH4w&feature=endscreen
+                                      - generic: 1:21:11
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "JavaScript Full Course ❤️ | Variables & Data Types | Lecture 1 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=ajdRvxDWH4w&feature=endscreen
+                                            - heading "JavaScript Full Course ❤️ | Variables & Data Types | Lecture 1" [level=3]
+                                            - generic: 2 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=_uQrJ0TkZlc&feature=endscreen
+                                      - generic: 6:14:07
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Python Full Course for Beginners 7 years ago":
+                                            - /url: https://www.youtube.com/watch?v=_uQrJ0TkZlc&feature=endscreen
+                                            - heading "Python Full Course for Beginners" [level=3]
+                                            - generic: 7 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=pq20Gd4LXeI&feature=endscreen
+                                      - generic: 8:17:31
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Playwright Automation Tutorial for Beginners from Scratch 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=pq20Gd4LXeI&feature=endscreen
+                                            - heading "Playwright Automation Tutorial for Beginners from Scratch" [level=3]
+                                            - generic: 2 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=PkZNo7MFNFg&feature=endscreen
+                                      - generic: 3:26:43
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Learn JavaScript - Full Course for Beginners 7 years ago":
+                                            - /url: https://www.youtube.com/watch?v=PkZNo7MFNFg&feature=endscreen
+                                            - heading "Learn JavaScript - Full Course for Beginners" [level=3]
+                                            - generic: 7 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo&feature=endscreen
+                                      - generic: 2:43:38
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "API Testing Postman Tutorial Full Course 2024 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo&feature=endscreen
+                                            - heading "API Testing Postman Tutorial Full Course 2024" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=5Jd1kXCuU9I&feature=endscreen
+                                      - generic: 15:42
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Git and GitHub Explained in 10 Minutes (With Animations) 1 month ago":
+                                            - /url: https://www.youtube.com/watch?v=5Jd1kXCuU9I&feature=endscreen
+                                            - heading "Git and GitHub Explained in 10 Minutes (With Animations)" [level=3]
+                                            - generic: 1 month ago
+        - generic [ref=f43e89]:
+          - generic [ref=f43e90]: "API Testing Course PART-01:"
+          - link "Watch on YouTube" [ref=f43e91] [cursor=pointer]:
+            - /url: https://youtu.be/QKBa8lt5Wfo?feature=shared
+          - iframe [ref=f43e92]:
+            - generic [ref=f74e1]:
+              - generic "YouTube Video Player" [ref=f74e3]
+              - generic [ref=f74e6]:
+                - generic:
+                  - generic:
+                    - button "Hide player controls" [ref=f74e7] [cursor=pointer]
+                    - generic [ref=f74e9]:
+                      - generic:
+                        - generic [ref=f74e12]:
+                          - generic [ref=f74e14]:
+                            - generic [ref=f74e15]:
+                              - link "API Testing Postman Tutorial Full Course 2024" [ref=f74e16] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo
+                              - link "Testers Talk" [ref=f74e17] [cursor=pointer]:
+                                - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                            - generic [ref=f74e19]:
+                              - button [ref=f74e20] [cursor=pointer]
+                              - generic [ref=f74e22]:
+                                - generic: Testers Talk
+                                - generic: 31.4K subscribers
+                          - generic [ref=f74e23]:
+                            - button "Mute" [ref=f74e25] [cursor=pointer]:
+                              - img "Mute" [ref=f74e26]
+                            - button "Subtitles/CC turned on" [pressed] [ref=f74e29] [cursor=pointer]
+                        - generic [ref=f74e34]:
+                          - button "Rewind 10 seconds" [ref=f74e35] [cursor=pointer]
+                          - button "Pause video" [ref=f74e37] [cursor=pointer]
+                          - button "Fast forward 10 seconds" [ref=f74e41] [cursor=pointer]
+                      - button "Enter full screen" [ref=f74e46] [cursor=pointer]
+                      - slider "Seek slider" [ref=f74e50] [cursor=pointer]
+                      - generic:
+                        - link "Watch on YouTube" [ref=f74e136] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=o9KJhGHl49M&feature=endscreen
+                                      - generic: 4:06:41
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "REST Assured API Testing Tutorial Crash Course 2024 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=o9KJhGHl49M&feature=endscreen
+                                            - heading "REST Assured API Testing Tutorial Crash Course 2024" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=qT17f5X4wBQ&feature=endscreen
+                                      - generic: 20:03
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - 'link "Real time API Mock Interview 2023 | 3- 4 Years Experience| How to solve API Issues | Video 110 #api 2 years ago"':
+                                            - /url: https://www.youtube.com/watch?v=qT17f5X4wBQ&feature=endscreen
+                                            - 'heading "Real time API Mock Interview 2023 | 3- 4 Years Experience| How to solve API Issues | Video 110 #api" [level=3]'
+                                            - generic: 2 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=vv2PskqvGRA&feature=endscreen
+                                      - generic: 1:23:39
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Manual Software Testing LIVE Project Part-1 5 years ago":
+                                            - /url: https://www.youtube.com/watch?v=vv2PskqvGRA&feature=endscreen
+                                            - heading "Manual Software Testing LIVE Project Part-1" [level=3]
+                                            - generic: 5 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                      - generic: 3:27:51
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - 'link "API Testing Using Postman: Complete Crash Course for Beginners 3 years ago"':
+                                            - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                            - 'heading "API Testing Using Postman: Complete Crash Course for Beginners" [level=3]'
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=KbQauUQAM-A&feature=endscreen
+                                      - generic: 21:05
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Postman Mini-Project | Login API, Token & Auth Testing (Real API Step-by-Step) 5 months ago":
+                                            - /url: https://www.youtube.com/watch?v=KbQauUQAM-A&feature=endscreen
+                                            - heading "Postman Mini-Project | Login API, Token & Auth Testing (Real API Step-by-Step)" [level=3]
+                                            - generic: 5 months ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=wEOLZq-7DYs&feature=endscreen
+                                      - generic: 1:35:56
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Learn Postman for API Testing (Step-by-Step Tutorial) 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=wEOLZq-7DYs&feature=endscreen
+                                            - heading "Learn Postman for API Testing (Step-by-Step Tutorial)" [level=3]
+                                            - generic: 2 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=O7Ca_dqVnu0&feature=endscreen
+                                      - generic: 28:51
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - 'link "JMeter Assertions Explained | Response Assertion & Duration Assertion | JMeter Full Course #5 13 days ago"':
+                                            - /url: https://www.youtube.com/watch?v=O7Ca_dqVnu0&feature=endscreen
+                                            - 'heading "JMeter Assertions Explained | Response Assertion & Duration Assertion | JMeter Full Course #5" [level=3]'
+                                            - generic: 13 days ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=kay86__5eTg&feature=endscreen
+                                      - generic: 3:15:25
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Advanced REST Assured API Automation Framework Full Course 2024 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=kay86__5eTg&feature=endscreen
+                                            - heading "Advanced REST Assured API Automation Framework Full Course 2024" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=rNg6u84TpSc&feature=endscreen
+                                      - generic: 1:53:08
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Ab Tak Chhappan (HD) - Ram Gopal Varma's Bollywood Superhit Action Film | Nana Patekar, Mohan Agashe 4 years ago":
+                                            - /url: https://www.youtube.com/watch?v=rNg6u84TpSc&feature=endscreen
+                                            - heading "Ab Tak Chhappan (HD) - Ram Gopal Varma's Bollywood Superhit Action Film | Nana Patekar, Mohan Agashe" [level=3]
+                                            - generic: 4 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=Yi2J-AJiFMs&feature=endscreen
+                                      - generic: 34:11
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=Yi2J-AJiFMs&feature=endscreen
+                                            - heading "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=cGn_LTFCif0&feature=endscreen
+                                      - generic: 11:35
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Postman Beginner Tutorial 1 | What is Postman 4 years ago":
+                                            - /url: https://www.youtube.com/watch?v=cGn_LTFCif0&feature=endscreen
+                                            - heading "Postman Beginner Tutorial 1 | What is Postman" [level=3]
+                                            - generic: 4 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=RG6q57DwV8Y&feature=endscreen
+                                      - generic: 2:03:34
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "11. Complete REST API Design 1 year ago":
+                                            - /url: https://www.youtube.com/watch?v=RG6q57DwV8Y&feature=endscreen
+                                            - heading "11. Complete REST API Design" [level=3]
+                                            - generic: 1 year ago
+        - generic [ref=f43e93]:
+          - generic [ref=f43e94]: "API Testing Course PART-02:"
+          - link "Watch on YouTube" [ref=f43e95] [cursor=pointer]:
+            - /url: https://youtu.be/o9KJhGHl49M?feature=shared
+          - iframe [ref=f43e96]:
+            - generic [ref=f75e1]:
+              - generic "YouTube Video Player" [ref=f75e3]
+              - generic [ref=f75e6]:
+                - generic:
+                  - generic:
+                    - button "Hide player controls" [ref=f75e7] [cursor=pointer]
+                    - generic [ref=f75e9]:
+                      - generic:
+                        - generic [ref=f75e12]:
+                          - generic [ref=f75e14]:
+                            - generic [ref=f75e15]:
+                              - link "REST Assured API Testing Tutorial Crash Course 2024" [ref=f75e16] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=o9KJhGHl49M
+                              - link "Testers Talk" [ref=f75e17] [cursor=pointer]:
+                                - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                            - generic [ref=f75e19]:
+                              - button [ref=f75e20] [cursor=pointer]
+                              - generic [ref=f75e22]:
+                                - generic: Testers Talk
+                                - generic: 31.4K subscribers
+                          - generic [ref=f75e23]:
+                            - button "Mute" [ref=f75e25] [cursor=pointer]:
+                              - img "Mute" [ref=f75e26]
+                            - button "Subtitles/CC turned on" [pressed] [ref=f75e29] [cursor=pointer]
+                        - generic [ref=f75e34]:
+                          - button "Rewind 10 seconds" [ref=f75e35] [cursor=pointer]
+                          - button "Pause video" [ref=f75e37] [cursor=pointer]
+                          - button "Fast forward 10 seconds" [ref=f75e41] [cursor=pointer]
+                      - button "Enter full screen" [ref=f75e46] [cursor=pointer]
+                      - slider "Seek slider" [ref=f75e50] [cursor=pointer]
+                      - generic:
+                        - link "Watch on YouTube" [ref=f75e113] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=o9KJhGHl49M
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=kay86__5eTg&feature=endscreen
+                                      - generic: 3:15:25
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Advanced REST Assured API Automation Framework Full Course 2024 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=kay86__5eTg&feature=endscreen
+                                            - heading "Advanced REST Assured API Automation Framework Full Course 2024" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=IDYvTGa2bT0&feature=endscreen
+                                      - generic: 45:54
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Master Telugu REST API in 2024 Without Failing 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=IDYvTGa2bT0&feature=endscreen
+                                            - heading "Master Telugu REST API in 2024 Without Failing" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                      - generic: 3:27:51
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - 'link "API Testing Using Postman: Complete Crash Course for Beginners 3 years ago"':
+                                            - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                            - 'heading "API Testing Using Postman: Complete Crash Course for Beginners" [level=3]'
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=lM-lqPun9P8&feature=endscreen
+                                      - generic: 1:59:55
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "#2 Playwright API Testing Tutorial Crash Course 2024 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=lM-lqPun9P8&feature=endscreen
+                                            - heading "#2 Playwright API Testing Tutorial Crash Course 2024" [level=3]
+                                            - generic: 2 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=clo8ZjmS7Js&feature=endscreen
+                                      - generic: 10:37
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Build a Complete Playwright Java Framework from Scratch (POM + TestNG) 2 weeks ago":
+                                            - /url: https://www.youtube.com/watch?v=clo8ZjmS7Js&feature=endscreen
+                                            - heading "Build a Complete Playwright Java Framework from Scratch (POM + TestNG)" [level=3]
+                                            - generic: 2 weeks ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=AsJbbYoKCGY&feature=endscreen
+                                      - generic: 7:14:06
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "API Testing full course | Postman API testing tutorial 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=AsJbbYoKCGY&feature=endscreen
+                                            - heading "API Testing full course | Postman API testing tutorial" [level=3]
+                                            - generic: 2 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=oVNbaBlrhbo&feature=endscreen
+                                      - generic: 6:38
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "REST Assured Beginner Tutorial 1 | Getting Started | What is Rest Assured 5 years ago":
+                                            - /url: https://www.youtube.com/watch?v=oVNbaBlrhbo&feature=endscreen
+                                            - heading "REST Assured Beginner Tutorial 1 | Getting Started | What is Rest Assured" [level=3]
+                                            - generic: 5 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo&feature=endscreen
+                                      - generic: 2:43:38
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "API Testing Postman Tutorial Full Course 2024 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo&feature=endscreen
+                                            - heading "API Testing Postman Tutorial Full Course 2024" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=VL3M4_sEdQE&feature=endscreen
+                                      - generic: 41:39
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "REST Assured API Testing Tutorial Chapter-02 | POST Request Using File | API Chaining | JSON Path 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=VL3M4_sEdQE&feature=endscreen
+                                            - heading "REST Assured API Testing Tutorial Chapter-02 | POST Request Using File | API Chaining | JSON Path" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=dwcRdXB_39k&feature=endscreen
+                                      - generic: 46:56
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Selenium with Cucumber 7.x - Java BDD Framework - Mini Project | Crash Course 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=dwcRdXB_39k&feature=endscreen
+                                            - heading "Selenium with Cucumber 7.x - Java BDD Framework - Mini Project | Crash Course" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=txryxBFzmSs&feature=endscreen
+                                      - generic: 1:55:12
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - 'link "Britain''s Spy Lawyer: How Spies Create Fake Identities | David Bickford | FO569 Raj Shamani 1 day ago"':
+                                            - /url: https://www.youtube.com/watch?v=txryxBFzmSs&feature=endscreen
+                                            - 'heading "Britain''s Spy Lawyer: How Spies Create Fake Identities | David Bickford | FO569 Raj Shamani" [level=3]'
+                                            - generic: 1 day ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=pq20Gd4LXeI&feature=endscreen
+                                      - generic: 8:17:31
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Playwright Automation Tutorial for Beginners from Scratch 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=pq20Gd4LXeI&feature=endscreen
+                                            - heading "Playwright Automation Tutorial for Beginners from Scratch" [level=3]
+                                            - generic: 2 years ago
+        - generic [ref=f43e97]:
+          - generic [ref=f43e98]: "API Testing Course PART-03:"
+          - link "Watch on YouTube" [ref=f43e99] [cursor=pointer]:
+            - /url: https://youtu.be/kay86__5eTg?feature=shared
+          - iframe [ref=f43e100]:
+            - generic [ref=f76e1]:
+              - generic "YouTube Video Player" [ref=f76e3]
+              - generic [ref=f76e6]:
+                - generic:
+                  - generic:
+                    - button "Hide player controls" [ref=f76e7] [cursor=pointer]
+                    - generic [ref=f76e9]:
+                      - generic:
+                        - generic [ref=f76e12]:
+                          - generic [ref=f76e14]:
+                            - generic [ref=f76e15]:
+                              - link "Advanced REST Assured API Automation Framework Full Course 2024" [ref=f76e16] [cursor=pointer]:
+                                - /url: https://www.youtube.com/watch?v=kay86__5eTg
+                              - link "Testers Talk" [ref=f76e17] [cursor=pointer]:
+                                - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                            - generic [ref=f76e19]:
+                              - button [ref=f76e20] [cursor=pointer]
+                              - generic [ref=f76e22]:
+                                - generic: Testers Talk
+                                - generic: 31.4K subscribers
+                          - generic [ref=f76e23]:
+                            - button "Mute" [ref=f76e25] [cursor=pointer]:
+                              - img "Mute" [ref=f76e26]
+                            - button "Subtitles/CC turned on" [pressed] [ref=f76e29] [cursor=pointer]
+                        - generic [ref=f76e34]:
+                          - button "Rewind 10 seconds" [ref=f76e35] [cursor=pointer]
+                          - button "Pause video" [ref=f76e37] [cursor=pointer]
+                          - button "Fast forward 10 seconds" [ref=f76e41] [cursor=pointer]
+                      - button "Enter full screen" [ref=f76e46] [cursor=pointer]
+                      - slider "Seek slider" [ref=f76e50] [cursor=pointer]
+                      - generic:
+                        - link "Watch on YouTube" [ref=f76e101] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=kay86__5eTg
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=Yi2J-AJiFMs&feature=endscreen
+                                      - generic: 34:11
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=Yi2J-AJiFMs&feature=endscreen
+                                            - heading "Postman API Testing Tutorial Chapter-01 | Postman API Testing Tutorial for Beginners" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo&feature=endscreen
+                                      - generic: 2:43:38
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "API Testing Postman Tutorial Full Course 2024 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo&feature=endscreen
+                                            - heading "API Testing Postman Tutorial Full Course 2024" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=o9KJhGHl49M&feature=endscreen
+                                      - generic: 4:06:41
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "REST Assured API Testing Tutorial Crash Course 2024 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=o9KJhGHl49M&feature=endscreen
+                                            - heading "REST Assured API Testing Tutorial Crash Course 2024" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=zsrkZRmgUMM&feature=endscreen
+                                      - generic: 51:09
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - 'link "Part 3: Building API Automation Testing Framework in Rest Assured from from Scratch 3 years ago"':
+                                            - /url: https://www.youtube.com/watch?v=zsrkZRmgUMM&feature=endscreen
+                                            - 'heading "Part 3: Building API Automation Testing Framework in Rest Assured from from Scratch" [level=3]'
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=NBqFiv6_bgA&feature=endscreen
+                                      - generic: 3:37:46
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Learn REST Assured API Automation Fundamentals - IN 3.5 HOURS! 5 years ago":
+                                            - /url: https://www.youtube.com/watch?v=NBqFiv6_bgA&feature=endscreen
+                                            - heading "Learn REST Assured API Automation Fundamentals - IN 3.5 HOURS!" [level=3]
+                                            - generic: 5 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=aqrxDxumKZQ&feature=endscreen
+                                      - generic: 42:21
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "how to automate REST API testing using the Rest Assured framework with Java. 8 years ago":
+                                            - /url: https://www.youtube.com/watch?v=aqrxDxumKZQ&feature=endscreen
+                                            - heading "how to automate REST API testing using the Rest Assured framework with Java." [level=3]
+                                            - generic: 8 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=p8GKV_CzjvQ&feature=endscreen
+                                      - generic: 26:19
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "REST Assured API Testing Tutorial Chapter-08 | Data Driven Testing in Rest Assured using JSON File 3 years ago":
+                                            - /url: https://www.youtube.com/watch?v=p8GKV_CzjvQ&feature=endscreen
+                                            - heading "REST Assured API Testing Tutorial Chapter-08 | Data Driven Testing in Rest Assured using JSON File" [level=3]
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                      - generic: 3:27:51
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - 'link "API Testing Using Postman: Complete Crash Course for Beginners 3 years ago"':
+                                            - /url: https://www.youtube.com/watch?v=BBQrv8RAG0Y&feature=endscreen
+                                            - 'heading "API Testing Using Postman: Complete Crash Course for Beginners" [level=3]'
+                                            - generic: 3 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=wEOLZq-7DYs&feature=endscreen
+                                      - generic: 1:35:56
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Learn Postman for API Testing (Step-by-Step Tutorial) 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=wEOLZq-7DYs&feature=endscreen
+                                            - heading "Learn Postman for API Testing (Step-by-Step Tutorial)" [level=3]
+                                            - generic: 2 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=X0iXAGvk4sc&feature=endscreen
+                                      - generic: 28:41
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "Explain OOPS Concepts You have Used in Selenium Automation Framework || Selenium Interview Questions 4 years ago":
+                                            - /url: https://www.youtube.com/watch?v=X0iXAGvk4sc&feature=endscreen
+                                            - heading "Explain OOPS Concepts You have Used in Selenium Automation Framework || Selenium Interview Questions" [level=3]
+                                            - generic: 4 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=SoW2pBak1_Q&feature=endscreen
+                                      - generic: 3:31:26
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "JMeter Full Course Masterclass | Step by Step for Beginners | Raghav Pal | 5 years ago":
+                                            - /url: https://www.youtube.com/watch?v=SoW2pBak1_Q&feature=endscreen
+                                            - heading "JMeter Full Course Masterclass | Step by Step for Beginners | Raghav Pal |" [level=3]
+                                            - generic: 5 years ago
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link [aria-hidden]:
+                                      - /url: https://www.youtube.com/watch?v=AsJbbYoKCGY&feature=endscreen
+                                      - generic: 7:14:06
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - link "API Testing full course | Postman API testing tutorial 2 years ago":
+                                            - /url: https://www.youtube.com/watch?v=AsJbbYoKCGY&feature=endscreen
+                                            - heading "API Testing full course | Postman API testing tutorial" [level=3]
+                                            - generic: 2 years ago

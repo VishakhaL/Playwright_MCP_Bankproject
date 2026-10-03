@@ -1,0 +1,290 @@
+- generic [ref=e1]:
+  - generic [ref=e52]: Redirecting to Banking App...
+  - 'heading "Testers Talk: A Practice Space for Passionate QA Minds" [level=1] [ref=e2]'
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Login" [level=2] [ref=e6]
+      - generic [ref=e7]:
+        - textbox "Username" [ref=e8]: TestersTalk
+        - textbox "Password" [ref=e9]: TestersTalk
+        - generic [ref=e10]:
+          - generic [ref=e11]: "App Name:"
+          - combobox "App Name:" [ref=e12]:
+            - option "Default"
+            - option "Banking" [selected]
+        - button "Login" [active] [ref=e13] [cursor=pointer]
+        - generic [ref=e14]:
+          - checkbox "Remember me" [ref=e15]
+          - generic [ref=e16]: Remember me
+        - paragraph
+        - generic [ref=e17]:
+          - link " Subscribe for Daily Updates" [ref=e18] [cursor=pointer]:
+            - /url: https://www.youtube.com/@testerstalk?sub_confirmation=1
+            - generic [ref=e19]: 
+            - text: Subscribe for Daily Updates
+          - link " Join LinkedIn Group" [ref=e20] [cursor=pointer]:
+            - /url: https://www.linkedin.com/groups/10393547/
+            - generic [ref=e21]: 
+            - text: Join LinkedIn Group
+          - link " Join Facebook Group" [ref=e22] [cursor=pointer]:
+            - /url: https://www.facebook.com/groups/247868358996762
+            - generic [ref=e23]: 
+            - text: Join Facebook Group
+          - link " Connect on LinkedIn" [ref=e24] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bakkappa-n
+            - generic [ref=e25]: 
+            - text: Connect on LinkedIn
+        - link "YouTube Playlist + GitHub Repo. + Documents" [ref=e26] [cursor=pointer]:
+          - /url: Testers-Talk-Important-Links.html
+    - generic [ref=e27]:
+      - heading "YouTube FREE Courses" [level=2] [ref=e28]
+      - generic [ref=e29]:
+        - link "JavaScript For Beginners" [ref=e55] [cursor=pointer]:
+          - /url: https://youtu.be/ACUMZ3OkExQ?feature=shared
+        - link "Download Document" [ref=e31] [cursor=pointer]:
+          - /url: FullCourseDocuments/JavaScript_Beginners_Course_by_Testers_Talk_Document.docx
+      - generic [ref=e32]:
+        - button "Previous Video" [ref=e33] [cursor=pointer]: <
+        - iframe [ref=e34]:
+          - generic [ref=f1e1]:
+            - generic "YouTube Video Player" [ref=f1e3]
+            - generic [ref=f1e6]:
+              - generic:
+                - generic:
+                  - button "Hide player controls" [ref=f1e7] [cursor=pointer]
+                  - generic [ref=f1e9]:
+                    - generic:
+                      - generic [ref=f1e12]:
+                        - generic [ref=f1e14]:
+                          - generic [ref=f1e15]:
+                            - link "JavaScript Tutorial Full Course | JavaScript Tutorial For Beginners" [ref=f1e16] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=ACUMZ3OkExQ
+                            - link "Testers Talk" [ref=f1e17] [cursor=pointer]:
+                              - /url: /channel/UCutQjK5N6zIT-vXqXa4WI0A
+                          - generic [ref=f1e19]:
+                            - button [ref=f1e20] [cursor=pointer]
+                            - generic [ref=f1e22]:
+                              - generic: Testers Talk
+                              - generic: 31.4K subscribers
+                        - generic [ref=f1e23]:
+                          - button "Unmute" [ref=f1e25] [cursor=pointer]:
+                            - img "Unmute" [ref=f1e26]
+                          - button "Subtitles/CC turned on" [pressed] [ref=f1e29] [cursor=pointer]
+                          - button "Playback Settings" [ref=f1e34] [cursor=pointer]
+                      - generic [ref=f1e39]:
+                        - button "Rewind 10 seconds" [ref=f1e40] [cursor=pointer]
+                        - button "Pause video" [ref=f1e42] [cursor=pointer]
+                        - button "Fast forward 10 seconds" [ref=f1e46] [cursor=pointer]
+                    - generic:
+                      - generic:
+                        - generic [ref=f1e48]:
+                          - generic [ref=f1e50]:
+                            - generic [ref=f1e51]:
+                              - text: 0:00
+                              - generic [ref=f1e52]: Time elapsed 0 seconds
+                            - text: /
+                            - generic [ref=f1e53]:
+                              - text: 4:30:59
+                              - generic [ref=f1e54]: Time duration 4 hours, 30 minutes, 59 seconds
+                          - generic [ref=f1e55]: JavaScript Tutorial for beginners
+                        - button "Enter full screen" [ref=f1e60] [cursor=pointer]
+                    - slider "Seek slider" [ref=f1e64] [cursor=pointer]
+                    - generic:
+                      - generic [ref=f1e107]:
+                        - button "Share" [ref=f1e111] [cursor=pointer]
+                        - generic [ref=f1e119]:
+                          - button "More videos" [ref=f1e122] [cursor=pointer]
+                          - link "Watch on YouTube" [ref=f1e130] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=ACUMZ3OkExQ
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=X46I88W6uIE&feature=endscreen
+                                    - generic: 1:04:29
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "JavaScript Tutorial For Beginners Chapter01 3 years ago":
+                                          - /url: https://www.youtube.com/watch?v=X46I88W6uIE&feature=endscreen
+                                          - heading "JavaScript Tutorial For Beginners Chapter01" [level=3]
+                                          - generic: 3 years ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=IQuG77FNMhw&feature=endscreen
+                                    - generic: 2:55:00
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "Javascript Tutorial for Beginners - Test Automation 5 years ago":
+                                          - /url: https://www.youtube.com/watch?v=IQuG77FNMhw&feature=endscreen
+                                          - heading "Javascript Tutorial for Beginners - Test Automation" [level=3]
+                                          - generic: 5 years ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=JVTZb4YvKjM&feature=endscreen
+                                    - generic: 8:45:30
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "Java Script Full Course in Telugu | Java Script in Telugu | Java Script Tutorials in Telugu 3 years ago":
+                                          - /url: https://www.youtube.com/watch?v=JVTZb4YvKjM&feature=endscreen
+                                          - heading "Java Script Full Course in Telugu | Java Script in Telugu | Java Script Tutorials in Telugu" [level=3]
+                                          - generic: 3 years ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=sscX432bMZo&feature=endscreen
+                                    - generic: 9:02:21
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "Javascript in 1 shot in Hindi | part 1 3 years ago":
+                                          - /url: https://www.youtube.com/watch?v=sscX432bMZo&feature=endscreen
+                                          - heading "Javascript in 1 shot in Hindi | part 1" [level=3]
+                                          - generic: 3 years ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=UfIvLowVqBk&feature=endscreen
+                                    - generic: 5:10:18
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "Ultimate Docker Bootcamp for ML, GenAI & Agentic AI 2026 | Beginner to Advanced | Hands-on Projects 11 days ago":
+                                          - /url: https://www.youtube.com/watch?v=UfIvLowVqBk&feature=endscreen
+                                          - heading "Ultimate Docker Bootcamp for ML, GenAI & Agentic AI 2026 | Beginner to Advanced | Hands-on Projects" [level=3]
+                                          - generic: 11 days ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=W6NZfCO5SIk&feature=endscreen
+                                    - generic: 48:17
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "JavaScript Course for Beginners – Your First Step to Web Development 8 years ago":
+                                          - /url: https://www.youtube.com/watch?v=W6NZfCO5SIk&feature=endscreen
+                                          - heading "JavaScript Course for Beginners – Your First Step to Web Development" [level=3]
+                                          - generic: 8 years ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=ajdRvxDWH4w&feature=endscreen
+                                    - generic: 1:21:11
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "JavaScript Full Course ❤️ | Variables & Data Types | Lecture 1 2 years ago":
+                                          - /url: https://www.youtube.com/watch?v=ajdRvxDWH4w&feature=endscreen
+                                          - heading "JavaScript Full Course ❤️ | Variables & Data Types | Lecture 1" [level=3]
+                                          - generic: 2 years ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=_uQrJ0TkZlc&feature=endscreen
+                                    - generic: 6:14:07
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "Python Full Course for Beginners 7 years ago":
+                                          - /url: https://www.youtube.com/watch?v=_uQrJ0TkZlc&feature=endscreen
+                                          - heading "Python Full Course for Beginners" [level=3]
+                                          - generic: 7 years ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=pq20Gd4LXeI&feature=endscreen
+                                    - generic: 8:17:31
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "Playwright Automation Tutorial for Beginners from Scratch 2 years ago":
+                                          - /url: https://www.youtube.com/watch?v=pq20Gd4LXeI&feature=endscreen
+                                          - heading "Playwright Automation Tutorial for Beginners from Scratch" [level=3]
+                                          - generic: 2 years ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=PkZNo7MFNFg&feature=endscreen
+                                    - generic: 3:26:43
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "Learn JavaScript - Full Course for Beginners 7 years ago":
+                                          - /url: https://www.youtube.com/watch?v=PkZNo7MFNFg&feature=endscreen
+                                          - heading "Learn JavaScript - Full Course for Beginners" [level=3]
+                                          - generic: 7 years ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo&feature=endscreen
+                                    - generic: 2:43:38
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "API Testing Postman Tutorial Full Course 2024 3 years ago":
+                                          - /url: https://www.youtube.com/watch?v=QKBa8lt5Wfo&feature=endscreen
+                                          - heading "API Testing Postman Tutorial Full Course 2024" [level=3]
+                                          - generic: 3 years ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link [aria-hidden]:
+                                    - /url: https://www.youtube.com/watch?v=5Jd1kXCuU9I&feature=endscreen
+                                    - generic: 15:42
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "Git and GitHub Explained in 10 Minutes (With Animations) 1 month ago":
+                                          - /url: https://www.youtube.com/watch?v=5Jd1kXCuU9I&feature=endscreen
+                                          - heading "Git and GitHub Explained in 10 Minutes (With Animations)" [level=3]
+                                          - generic: 1 month ago
+        - button "Next Video" [ref=e35] [cursor=pointer]: ">"
+  - text: "* * * *    "
+  - generic [ref=e36]:
+    - generic [ref=e37] [cursor=pointer]:
+      - text: Testers Talk Chatbot
+      - generic [ref=e38]:
+        - button "Minimize" [ref=e39]: –
+        - button "Maximize" [ref=e40]: ◻
+        - button "Close" [ref=e41]: ✕
+    - generic [ref=e42]: 👋 Hi! Type 'Hi' to start a conversation.
+    - generic [ref=e44]:
+      - textbox "Type your message..." [ref=e45]
+      - button "Send" [ref=e46] [cursor=pointer]
+  - generic [ref=e47]:
+    - link "Donate Now" [ref=e48] [cursor=pointer]:
+      - /url: Donate-Now.html
+    - text: "|"
+    - link "Test API's" [ref=e49] [cursor=pointer]:
+      - /url: API-Test-Playground.html
+    - text: "|"
+    - link "Medium Articles" [ref=e50] [cursor=pointer]:
+      - /url: Testers-Talk-Medium-Articles.html

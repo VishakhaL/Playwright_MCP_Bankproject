@@ -1,0 +1,83 @@
+- generic [active] [ref=f43e1]:
+  - generic: 03/10/2026 13:31:40
+  - generic [ref=f43e3]:
+    - generic [ref=f43e4]:
+      - heading "🏦 Sample Banking Application" [level=1] [ref=f43e5]
+      - paragraph [ref=f43e6]: Welcome to the Testers Talk Banking Application
+    - generic [ref=f43e7]:
+      - generic [ref=f43e9]:
+        - button "Transfers" [ref=f43e10] [cursor=pointer]
+        - button "Bill Payments" [ref=f43e11] [cursor=pointer]
+      - generic [ref=f43e15]:
+        - navigation [ref=f43e17]:
+          - link "💰 Account Management" [ref=f43e18] [cursor=pointer]:
+            - /url: "#"
+          - link "💳 Quick Transactions" [ref=f43e19] [cursor=pointer]:
+            - /url: "#"
+          - link "📊 Transaction History" [ref=f43e20] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=f43e21]:
+          - text: "* * * *"
+          - generic [ref=f43e199]:
+            - heading "📊 Transaction History" [level=2] [ref=f43e200]
+            - generic [ref=f43e201]:
+              - generic [ref=f43e202]:
+                - generic [ref=f43e203]:
+                  - strong [ref=f43e204]: Transfer to 9876543210
+                  - text: "10/3/2026 Ref: TXN-1791014491205-370"
+                - generic [ref=f43e205]: "-$125.00"
+              - generic [ref=f43e206]:
+                - generic [ref=f43e207]:
+                  - strong [ref=f43e208]: Initial Balance
+                  - text: "10/3/2026 Ref: INIT-001"
+                - generic [ref=f43e209]: +$10000.00
+      - text: "* * * * *"
+  - generic [ref=f43e33]:
+    - generic [ref=f43e34]: "Latest from Testers Talk :"
+    - generic [ref=f43e36]:
+      - generic [ref=f43e37]:
+        - button "Previous Video" [disabled] [ref=f43e38]: ▲
+        - button "Next Video" [ref=f43e39] [cursor=pointer]: ▼
+      - generic [ref=f43e40]:
+        - generic [ref=f43e210]:
+          - generic [ref=f43e211]: "Playwright TypeScript Course PART-01:"
+          - link "Watch on YouTube" [ref=f43e212] [cursor=pointer]:
+            - /url: https://youtu.be/788GvvcfwTY?feature=shared
+          - iframe [ref=f43e213]:
+            - generic "YouTube Video Player" [ref=f120e3]
+        - generic [ref=f43e214]:
+          - generic [ref=f43e215]: "Playwright TypeScript Course PART-02:"
+          - link "Watch on YouTube" [ref=f43e216] [cursor=pointer]:
+            - /url: https://youtu.be/YfRazDhi9Fw?feature=shared
+          - iframe [ref=f43e217]:
+            - generic "YouTube Video Player" [ref=f121e3]
+        - generic [ref=f43e218]:
+          - generic [ref=f43e219]: "Playwright TypeScript Course PART-03:"
+          - link "Watch on YouTube" [ref=f43e220] [cursor=pointer]:
+            - /url: https://youtu.be/iGQ-qTLEPLw?feature=shared
+          - iframe [ref=f43e221]:
+            - generic "YouTube Video Player" [ref=f122e3]
+        - generic [ref=f43e222]:
+          - generic [ref=f43e223]: "Playwright TypeScript Course PART-04:"
+          - link "Watch on YouTube" [ref=f43e224] [cursor=pointer]:
+            - /url: https://youtu.be/D44k45N6S58?feature=shared
+          - iframe [ref=f43e225]:
+            - generic "YouTube Video Player" [ref=f123e3]
+        - generic [ref=f43e226]:
+          - generic [ref=f43e227]: "Playwright JavaScript Course PART-01:"
+          - link "Watch on YouTube" [ref=f43e228] [cursor=pointer]:
+            - /url: https://youtu.be/2poXBtifpzA?feature=shared
+          - iframe [ref=f43e229]:
+            - generic "YouTube Video Player" [ref=f124e3]
+        - generic [ref=f43e230]:
+          - generic [ref=f43e231]: "Playwright JavaScript Course PART-02:"
+          - link "Watch on YouTube" [ref=f43e232] [cursor=pointer]:
+            - /url: https://youtu.be/lM-lqPun9P8?feature=shared
+          - iframe [ref=f43e233]:
+            - generic "YouTube Video Player" [ref=f125e3]
+        - generic [ref=f43e234]:
+          - generic [ref=f43e235]: "Playwright JavaScript Course PART-03:"
+          - link "Watch on YouTube" [ref=f43e236] [cursor=pointer]:
+            - /url: https://youtu.be/Exx2M5Pz06g?feature=shared
+          - iframe [ref=f43e237]:
+            - generic "YouTube Video Player" [ref=f126e3]
